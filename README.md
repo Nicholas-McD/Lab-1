@@ -1,17 +1,18 @@
 # Lab 1
 ## Compile
 gcc -nostdlib -no-pie print_hello.s -o hello
-gcc -nostdlib -no-pie Task_1.s -o Task_1
-gcc -nostdlib -no-pie Task_2.s -o Task_2
-gcc -nostdlib -no-pie Task_3.s -o Task_3
-gcc -nostdlib -no-pie Task_3.s -o Task_4
+gcc -no-pie Task_1.s print_ram.c -o task1
+gcc -no-pie Task_2.s print_ram.c -o task2
+gcc -no-pie Task_3.s print_ram.c -o task3
+gcc -no-pie Task_4.s print_ram.c -o task4
+
 
 ## Run
 ./hello
-./Task1
-./Task2
-./Task3
-./Task4
+./task1
+./task2
+./task3
+./task4
 
 
 
